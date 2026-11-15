@@ -27,8 +27,9 @@ El Niño events significantly disrupt the Indian monsoon, threatening food secur
 3. Run historical validation: `python backtest.py`
 4. Generate future charts: `python future_prediction.py`, `python future prediction graph.py`
 
-## Bonus (Part B): Regression Game
-Run `python regression_game.py` to play a game demonstrating the Bias-Variance tradeoff in Linear Regression.
+## Part B: Budget Commander
+**Learning Objective:** Teaches Descriptive Statistics and Sampling. Players must estimate a hidden population mean by purchasing random data samples.
+**How to Play:** Spend limited gold to buy test battles. Analyze the histogram and standard deviation, then lock in your final guess to defeat the T-Rex.
 
 ## Limitations
 The model assumes historical weather patterns remain constant for future projections. XGBoost is a black-box model, making exact causal inference difficult.
