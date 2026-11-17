@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import re
 
-# =========================================================
+
 # SEASON DEFINITIONS
-# =========================================================
+
 season_oni = {
     'Kharif': ['MJJ', 'JJA', 'JAS', 'ASO'],
     'Rabi':   ['OND', 'NDJ', 'DJF', 'JFM'],
@@ -18,9 +18,9 @@ def tag_season(month):
     if month in [4, 5]:           return 'Summer'
     return 'Winter'
 
-# =========================================================
+
 # LOAD
-# =========================================================
+
 print("Loading files...")
 yield_df = pd.read_csv("rice_state_season_yield_1997_2020.csv")
 oni_df   = pd.read_csv("Clean_ENSO_Data.csv")
